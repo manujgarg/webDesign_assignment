@@ -1,0 +1,85 @@
+.container{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+#header{
+	border: 1px;
+	border-style: inset;
+	background-color: #e7826b;
+	border-color: #bf3415;
+	height: 10%;
+	width: 100%;
+	position: relative;
+}
+.navigationLinks:link, .navigationLinks:visited{
+	background-color: #cc5d44;
+	text-decoration: none;
+}
+.navigationLinks:active{
+	background-color: white;
+	text-decoration: none;
+}
+.navigationLinks:hover{
+	background-color: transparent;
+	text-decoration: none;
+}
+.navigationLinks{
+	display: block;
+	height: 91%;
+	width: 12%;
+	border: 3px groove #bf3415;
+	margin: auto;
+	float: left;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #cc5d44;
+	position: relative;
+}
+#navigationText{
+	text-align: center;	
+	font-size: 120%;
+	color: white;
+	vertical-align: middle;
+}
+#homeText{
+	width: 60%;
+	display: inline-block;
+	float: left;	
+}
+#homeImage{
+	width: 40%;
+	display: inline-block;
+	float: right;
+}
+#homeFrame{
+	width: 100%;
+	height: 100%;
+	border: 1px solid green;
+}
+table#contactDetails tr:nth-child(even){
+	height: 40px;
+	background-color: #c6dedd;
+}
+table#contactDetails tr:nth-child(odd){
+	height: 40px;
+}
+#contactDetails{
+	width: 60%;
+	border-color: green;
+	border: 2px solid green;
+}
+#tableRowHeading{
+	color: white;
+	background-color: #726664;
+	height: 50px;
+}
+.rightColData{
+	text-align: right;
+	padding-right: 10px;
+}
+.leftColData{
+	padding-left: 10px;
+}
